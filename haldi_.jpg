@@ -1,0 +1,147 @@
+<html>
+<head>
+<title>Haldi page</title>
+<style>
+.gallery
+{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+width:100%;
+border-radius:12px;
+}
+.gallery img
+{
+width: 450px;
+height: 350px;
+padding: 25px;
+object-fit:cover;
+transition: all 4;
+border-radius:12px;
+}
+.gallery img:hover
+{
+cursor:pointer;
+transform:scale(1.03);
+box-shadow: opx opx 10px green;
+border-radius:12px;
+}
+.popup
+{
+position:fixed;
+top:0;
+left:0;
+z-index:10;
+width:100%;
+height:100%;
+display:none;
+background-color:#aabbcc;
+z-index:20;
+border-radius:12px;
+}
+.popup span
+{
+position:absolute;
+top:0;
+right:10px;
+color:white;
+cursor:pointer;
+font-size:40px;
+cursor:pointer;
+z-index:20;
+border-radius:12px;
+}
+.popup img
+{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+max-width:750px;
+object-fix:cover;
+border-radius:12px;
+}
+@media(max-width:768px)
+{
+.popup img
+{
+width:100%;
+border-radius:12px;
+}
+}
+gallery img a
+{
+max-width: 100%;
+height: auto;
+border-radius:12px;
+}
+
+
+
+h1
+{
+text-align:center;
+color:#99008c;
+font-family:Lucida Calligraphy;
+font-size:40px;
+
+}
+h2
+{
+text-align:center;
+color:#0d9408;
+font-style:Century Schoolbook;
+font-size:30px;
+}
+.center
+{
+margin:auto;
+width:80%;
+height:80%;
+border: 9px solid #73ad21;
+padding:25px;
+border-color: #FF33CC;
+}
+h3
+{
+text-align:center;
+color:#ff6666;
+font-family:Lucida Calligraphy;
+font-size:30px;
+}
+.button {
+  background-color:fc0fc0; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:Bodoni MT;
+border-radius:12px;
+}
+</style>
+</head>
+<body bgcolor="#F0F0F0">
+<br><br><br><br>
+<div class="center">
+<h1>Haldi</h1>
+<h2>
+The Haldi ceremony is a treasure trove of good memories and great pictures!<br> Here's a complete guide on how to plan yours, so as to make<br> the most of this very special occasion.Laughter, leg-pulling, <br>camaraderie and the pungent, tangy whiff of turmeric in the air<br>Haldi ceremony is all this and more. Make sure that you capture<br> the essence of this one-of-a-kind celebration by planning<br> it just right!After all, these are the memories you will <br>cherish for a long time to come. <br>Read on to know how to make this day memorable for you and your dear ones,<br> as you embark on the first steps towards a brand new life.
+</h2><br>
+<h3>" Haldi Ceremony - The Perfect Blend Of Tradition And Fun "</h3>
+<div class="gallery">
+<a href="m18.jpg"><img src="m18.jpg"></a>
+<a href="m17.jpg"><img src="m17.jpg"></a>
+</div>
+<div class="popup">
+<span>&times;</span>
+<img src="m1.jpg"><br><br>
+</div>
+<br><br><CENTER><a href="haldi.html"><button class="button">HALDI GALLERY</button></a>
+</div>
+</body><br><br>
+</html>

@@ -1,0 +1,17 @@
+<html>
+<body>
+<form action="sign" method="POST">
+
+<h1>User Name:<input type="text" name="t1" required pattern="^[A-Z][a-z0-9]+"></h1><br>
+<h1>Password:<input type="password" name="t2" required minlength=6></h1><br>
+<h1>Confirm Password:<input type="password" name="t3" required minlength=6></h1><br>
+<h1>Email:<input type="email" name="t4" pattern="/^[a-zA-Z0-9. _-]+@[a-zA-Z0-9. -]+\. [a-zA-Z]{2,4}$/" required><br>
+<h1>Address:<input type="text" name="t5" required></h1><br>
+<h1>Contact Number:<input type="number" name="t6" required maxlength=10></h1><br>
+<input type="submit" value="Signin">
+</form>
+</body>
+</html>
+
+
+

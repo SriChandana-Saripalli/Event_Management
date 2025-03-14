@@ -1,0 +1,26 @@
+.
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+.h1
+{
+text-align:center;
+color:#ff1493;
+font-family:Lucida Calligraphy;
+}
+.center
+{
+margin:auto;
+width:75%;
+border: 9px solid #73ad21;
+padding:10px;
+}
+.container
+{
+position:relative;
+border-style:solid;
+border-color:green;
+border-width:30px;
+}

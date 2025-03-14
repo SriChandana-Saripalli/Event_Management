@@ -1,0 +1,25 @@
+.container ul li
+{
+display: inline;
+padding: 25px;
+height: 15vh;
+}
+ul{
+text-align:center;
+background-color:#aabbcc;
+font-size: 32px;
+}
+ul::after
+{
+background-color: #bbccdd;
+}
+.a
+{
+text-decoration: none;
+}
+li:hover
+{
+background-color:none;
+}
+.img
+{

@@ -1,0 +1,37 @@
+{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+h1
+{
+text-align: center;
+color:#b23cfd;
+margin: 20px 0;
+font-size: 50px;
+}
+.container
+{
+position:relative;
+background-color:#fffffe;
+}
+.gallery
+{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+width:100%;
+}
+.gallery img
+{
+width: 300px;
+height: 200px;
+padding: 5px;
+filter: grayscale(100%);
+transition; 1s;
+}
+.gallery img:hover
+{
+filter: grayscale(0);
+transform:scale91.1);
+}

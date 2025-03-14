@@ -1,0 +1,33 @@
+.tab
+{
+background-color:black;
+text-color:white;
+width:100%;
+height:100%;
+}
+.h33
+{
+font-family:Century Schoolbook;
+color:white
+}
+.button3 {
+  background-color:black; 
+  border: none;
+  color: white;
+  padding:10px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:Century Schoolbook;
+}
+.imgg
+{
+width:28;
+height:28;
+padding: 12px;
+object-fit:cover;
+transition: all 4;
+}

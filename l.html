@@ -1,0 +1,63 @@
+<html lang="en">
+  <head>
+    <title>Login To Game store</title>
+    <link rel="stylesheet" href="D:\fsd_bindu\Signin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="login-box">
+      <h1>Login</h1>
+      <form method="post" name="myform" onsubmit="return validateForm()"  action="login.html">
+      <label>Email</label>
+        <input type="email"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+        <label>Password</label>
+        <input type="password" required/>
+        <input type="submit"  value="Submit"/>
+      </form>
+    </div>
+    <p class="para-2">
+      Not have an account? <a href="SignUp.html">Sign Up Here</a>
+    </p>
+  </body>
+</html>
+   
+
+signup
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="D:/fsd_bindu/Signin.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>It's free and only takes a minute</h4>
+      <form name="myform" onsubmit="return validateForm()" method="post"  action="SignUp.html">
+        <label>First Name</label>
+        <input type="text" required/>
+        <label>Last Name</label>
+        <input type="text" required />
+        <label>Email</label>
+        <input type="email" id="myEmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/>
+        <label>Password</label>
+        <input type="password" required />
+        <label>Confirm Password</label>
+        <input type="password" required/>
+        <input type="submit" value="Submit"/>
+      </form>
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+  </body>
+</html>
+<input type="email" placeholder="Email" class="box"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" required/><br><br>

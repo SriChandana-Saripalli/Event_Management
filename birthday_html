@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>Birthday</title>
+<style>
+.gallery
+{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+width:100%;
+}
+.gallery img
+{
+width: 450px;
+height: 350px;
+padding: 25px;
+object-fit:cover;
+transition: all 4;
+}
+.gallery img:hover
+{
+cursor:pointer;
+transform:scale(1.03);
+box-shadow: opx opx 10px green;
+}
+.popup
+{
+position:fixed;
+top:0;
+left:0;
+z-index:10;
+width:100%;
+height:100%;
+display:none;
+background-color:#aabbcc;
+z-index:20;
+}
+.popup span
+{
+position:absolute;
+top:0;
+right:10px;
+color:white;
+cursor:pointer;
+font-size:40px;
+cursor:pointer;
+z-index:20;
+}
+.popup img
+{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+max-width:750px;
+object-fix:cover;
+}
+@media(max-width:768px)
+{
+.popup img
+{
+width:100%;
+}
+}
+gallery img a
+{
+max-width: 100%;
+height: auto;
+}
+
+
+
+h1
+{
+text-align:center;
+color:Red;
+font-family:Lucida Calligraphy;
+font-size:35px;
+
+}
+h2
+{
+text-align:center;
+color: #1f7a1f;
+font-style:Modern No. 20;
+font-size:25px;
+}
+.center
+{
+margin:auto;
+width:80%;
+height:80%;
+border: 9px solid #73ad21;
+padding:5px;
+border-color:#330000;
+}
+h3
+{
+text-align:center;
+color:#ff1493;
+font-family:Lucida Calligraphy;
+font-size:30px;
+}
+.button {
+  background-color: ff66ff; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family:Bodoni MT;
+}
+</style>
+</head>
+<body bgcolor="#ffe6e6"
+<br><br><br><br><br><br>
+<div class="center"><br><br>
+<h1>Birthday</h1><br>
+<h2>Birthday parties are like road trips: Getting there is half the fun. <br>Deciding on the theme, decorations, and activities makes the days<br> leading up to the event seem like part of the celebration itself.<br> It needn't be elaborate -- kids will be happy with <br>a small party as long as they are made to feel special. <br>Even a simple party requires planning; the sooner you start organizing, the earlier the excitement <br>begins and the fewer details you'll have to work out on the day itself.<br>
+</h2><br><br>
+<h3>" We make your Birthday remarkable as the best quoted movements that will stay as a bench mark in your life "</h3></div>
+<h1>Recent Events</h1>
+<div class="gallery">
+<a href="b_.jpg"><img src="b_.jpg"></a>
+<a href="b5.jpg"><img src="b5.jpg"></a>
+</div>
+<div class="popup">
+<span>&times;</span>
+<img src="b1.jpg"><br><br>
+</div>
+<br><br><CENTER><a href="birthday.html"><button class="button">BIRTHDAY GALLERY</button></a>
+</div>
+</body><br><br>
+</html>

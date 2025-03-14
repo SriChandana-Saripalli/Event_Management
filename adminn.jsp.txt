@@ -1,0 +1,25 @@
+<%@page import="java.sql.*"%>
+<%
+            String un=request.getParameter("t1");
+            String pass=request.getParameter("t2");
+            Class.forName("oracle.jdbc.driver.OracleDriver");
+            Connection con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","manager");
+       Statement stmt=con.createStatement();  
+                ResultSet rs=stmt.executeQuery("select * from admin");
+                while(rs.next())
+  {
+                    if(un.equals(rs.getString(1)) && pass.equals(rs.getString(2)))
+                    {
+                        response.sendRedirect("a2.html");
+                    }
+                       else
+                    {
+                        out.print("login failed try again");
+                    }
+                }
+               
+            }
+         %>
+    </body>
+
+</html>

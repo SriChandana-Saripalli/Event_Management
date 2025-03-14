@@ -1,0 +1,104 @@
+<web-app>
+
+<servlet>
+	<servlet-name>first</servlet-name>
+	<servlet-class>login</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>first</servlet-name>
+	<url-pattern>/validate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>second</servlet-name>
+	<servlet-class>valid</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>second</servlet-name>
+	<url-pattern>/validd</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>third</servlet-name>
+	<servlet-class>signin</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>third</servlet-name>
+	<url-pattern>/sign</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>fourth</servlet-name>
+	<servlet-class>contactus</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fourth</servlet-name>
+	<url-pattern>/contact</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>fourth_</servlet-name>
+	<servlet-class>contactus11</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fourth_</servlet-name>
+	<url-pattern>/contact11</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>fourth1</servlet-name>
+	<servlet-class>contactus111</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fourth1</servlet-name>
+	<url-pattern>/contact111</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>fifth</servlet-name>
+	<servlet-class>admin</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fifth</servlet-name>
+	<url-pattern>/validate1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>six</servlet-name>
+	<servlet-class>valid_</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>six</servlet-name>
+	<url-pattern>/validd1</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>fifth_</servlet-name>
+	<servlet-class>admin11</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>fifth_</servlet-name>
+	<url-pattern>/validate11</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>six_</servlet-name>
+	<servlet-class>valid__</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>six_</servlet-name>
+	<url-pattern>/validd11</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	<servlet-name>si_</servlet-name>
+	<servlet-class>table</servlet-class>
+</servlet>
+<servlet-mapping>
+	<servlet-name>si_</servlet-name>
+	<url-pattern>/tab1</url-pattern>
+</servlet-mapping>
+
+</web-app>
+
+

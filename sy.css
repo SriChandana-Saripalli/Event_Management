@@ -1,0 +1,32 @@
+<html>
+<head>
+<title>Reception gallery</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body bgcolor="#ebb8dd">
+<div class="container">
+<h1>Reception gallery</h1>
+ <div class="gallery">
+<a href="r1.jpg"><img src="r1.jpg"></a>
+<a href="r2.jpg"><img src="r2.jpg"></a>
+<a href="r3.jpg"><img src="r3.jpg"></a>
+<a href="r4.jpg"><img src="r4.jpg"></a>
+<a href="r5.jpg"><img src="r5.jpg"></a>
+<a href="r6.jpg"><img src="r6.jpg"></a>
+<a href="r7.jpg"><img src="r7.jpg"></a>
+<a href="r9.jpg"><img src="r9.jpg"></a>
+<a href="r10.jpg"><img src="r10.jpg"></a>
+<a href="r11.jpg"><img src="r11.jpg"></a>
+<a href="r12.jpg"><img src="r12.jpg"></a>
+<a href="r13.jpg"><img src="r13.jpg"></a>
+\<a href=r15.jpg"><img src="r15.jpg"></a>
+<a href="r16.jpg"><img src="r16.jpg"></a>
+<a href="r17.jpg"><img src="r17.jpg"></a>
+</div>
+<div class="popup">
+<span>&times;</span>
+<img src="b1.jpg">
+</div>
+</div>
+<script src="script.js"></script>
+</body></html>
